@@ -59,8 +59,14 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
+  right: 0px;
   width: 25px;
+}
+
+@media (width < 800px) {
+  .colorMode {
+    margin-right: 50px;
+  }
 }
 
 .colorMode:hover {
@@ -71,13 +77,21 @@
   max-width: 24ch;
 }
 
+@media (width <800px) {
+  .description {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+  }
+}
+
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-@media (width >= 800px) {
+@media (width >=800px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
@@ -90,7 +104,7 @@
   }
 }
 
-@media (width >= 1400px) {
+@media (width >=1400px) {
   .container {
     .hero {
       max-width: 400px;
