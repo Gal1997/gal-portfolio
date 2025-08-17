@@ -19,7 +19,7 @@ function Projects() {
           link="https://gal2-backend.onrender.com/"
           title="Gal2"
           techStack="Angular Node Express MongoDB"
-          description="Yad2 clone"
+          description="Yad2 clone (PC Only)"
         />
         <ProjectCard
           src={tomorrow}
